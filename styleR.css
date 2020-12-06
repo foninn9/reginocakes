@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.container{
+    width: 30%;
+    padding-top: 30rem;
+    padding-bottom: 5rem;
+}
+form{
+    width: 100%;
+}
+.form{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+.form input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 20px;
+    outline: none;
+}
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.form label::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 3px solid blue;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-name::after, .form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+.content-lastnameP{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-lastnameP .content-lastnameP, .form input:valid + .label-lastnameP .content-lastnameP{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-lastnameP::after, .form input:valid + .label-lastnameP::after{
+    transform: translateX(0%);
+}
+.content-lastnameM{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-lastnameM .content-lastnameM, .form input:valid + .label-lastnameM .content-lastnameM{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-lastnameM::after, .form input:valid + .label-lastnameM::after{
+    transform: translateX(0%);
+}
+.content-email{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-email .content-email, .form input:valid + .label-email .content-email{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-email::after, .form input:valid + .label-email::after{
+    transform: translateX(0%);
+}
+.content-Password{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-Password .content-Password, .form input:valid + .label-Password .content-Password{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-Password::after, .form input:valid + .label-Password::after{
+    transform: translateX(0%);
+}
+.content-phone{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-phone .content-phone, .form input:valid + .label-phone .content-phone{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-phone::after, .form input:valid + .label-phone::after{
+    transform: translateX(0%);
+}
+.content-city{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-city .content-city, .form input:valid + .label-city .content-city{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-city::after, .form input:valid + .label-city::after{
+    transform: translateX(0%);
+}
+.content-State{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-State .content-State, .form input:valid + .label-State .content-State{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-State::after, .form input:valid + .label-State::after{
+    transform: translateX(0%);
+}
+.content-PC{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-PC .content-PC, .form input:valid + .label-PC .content-PC{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-PC::after, .form input:valid + .label-PC::after{
+    transform: translateX(0%);
+}
+.content-Direction{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .label-Direction .content-Direction, .form input:valid + .label-Direction .content-Direction{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: aqua;
+}
+.form input:focus + .label-Direction::after, .form input:valid + .label-Direction::after{
+    transform: translateX(0%);
+}
+.genero{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.genero h5{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+.boton button{
+    width: 50%;
+    bottom: 25px; 
+    align-content:center; 
+    height: 40px;
+}
