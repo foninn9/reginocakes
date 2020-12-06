@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleR.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="conexion.php" method="post" class="Entrada">
+        <h3>Registrate En Los mejores Pasteles</h3>
+        <div class="form">
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">Nombre</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="lastnameP" autocomplete="off" required>
+            <label for="lastnameP" class="label-lastnameP">
+                <span class="content-lastnameP">Apellido Paterno</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="lastnameM" autocomplete="off" required>
+            <label for="lastnameM" class="label-lastnameM">
+                <span class="content-lastnameM">Apellido Materno</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="email" name="email" autocomplete="off" required>
+            <label for="email" class="label-email">
+                <span class="content-email">Correo</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="password" name="Password" autocomplete="off" required>
+            <label for="Password" class="label-Password">
+                <span class="content-Password">Contraseña</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="tel" name="phone" autocomplete="off" required>
+            <label for="phone" class="label-phone">
+                <span class="content-phone">Telefono</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="city" autocomplete="off" required>
+            <label for="city" class="label-city">
+                <span class="content-city">Ciudad</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="State" autocomplete="off" required>
+            <label for="State" class="label-State">
+                <span class="content-State">Estado</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="PC" autocomplete="off" required>
+            <label for="PC" class="label-PC">
+                <span class="content-PC">Codigo Postal</span>
+            </label>
+        </div>
+        <div class="form">
+            <input type="text" name="Direction" autocomplete="off" required>
+            <label for="Direction" class="label-Direction">
+                <span class="content-Direction">Direccion</span>
+            </label>
+        </div>
+        <div class="genero">
+            <h5>Genero</h5>
+            <input type="radio" id="male" name="gender" value="M">
+            <label for="male">Hombre</label><br>
+            <input type="radio" id="female" name="gender" value="F">
+            <label for="female">Mujer</label><br>
+            <input type="radio" id="other" name="gender" value="O">
+            <label for="other">Otro</label>
+        </div>
+        <div class="boton">
+        <button type="submit">Registrarse</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

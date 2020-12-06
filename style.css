@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.titleletra{
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    padding-bottom: 15px;
+}
+h1{
+    font-family: 'Nerko One', cursive;
+    padding-top: 2rem;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+}
+.Renglon{
+    padding-left: 5%;
+    padding-top: 1rem;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    height: 250px;
+    background-image: url(nav.png);
+    padding: 2rem 0rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.header a{
+    color: white;
+}
+.main{
+    padding-top: 10rem;
+}
+.container-logo-nav{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navegador ul li{
+        display: inline-block;
+    }
+        .navegador ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 5px;
+        }
+            .navegador ul li a:hover{
+                background-color: black;
+            }
+.footer{
+    background-color: antiquewhite;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.pastel{
+    display: block;
+}
+.pastel img{
+    width: 80%;
+    height: 30%;
+    object-fit: cover;
+}
+.buy{
+    height: 30px;
+    width: 23%;
+    border-radius: 5px;
+}
+.car{
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+}
+p{
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.slider{
+    padding-right: 2rem;
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 95%;
+}
+
+@keyframes cambio{
+    0%{
+        margin-left: 0%;
+    }
+    20%{
+        margin-left: 0%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+}
